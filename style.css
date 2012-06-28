@@ -39,6 +39,10 @@ table.versions td, table.versions th {
   font-size:28px;
 }
 
+.small {
+  font-size:24px!important;
+}
+
 .content > pre {
   font-size:28px;
 }
