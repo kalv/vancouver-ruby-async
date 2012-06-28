@@ -4,6 +4,7 @@
     {"section":"getting_started"},
     {"section":"testing"},
     {"section":"deployment"},
-    {"section":"sidekiq"}
+    {"section":"sidekiq"},
+    {"section":"fin"}
   ]
 }
