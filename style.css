@@ -19,6 +19,7 @@
 }
 .smbullets ul li {
   text-align:left;
+  line-height:1.2em;
 }
 
 table.versions {

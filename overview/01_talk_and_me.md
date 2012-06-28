@@ -25,17 +25,27 @@
 !SLIDE smbullets
 # Ruby async projects to date
 
-* Built Twitterfeed's XMPP architecture to process > 5m RSS feeds and
-  publish to twitter, all in Ruby!
-* Hashblue.com - Allowing UK O2 customers to access their SMS messages
+* Built Twitterfeed's XMPP architecture - publishing > 5m RSS feeds to twitter, all in Ruby!
+* Hashblue.com - UK O2 customers to access their SMS messages
   online and via an API.
-* Ruby DSL to interact with VOIP Switch
+* Recently Goodbits.co for handling RSS push notifications
 
 !SLIDE smbullets
-# The problem
+# Needs
 - Need to offload long running tasks into the background
 - Need to speed up http responses to improve user experiences
-- Examples: Email sending, updating search indexes, updating activity feeds for users, etc.
+
+!SLIDE
+## Sending email using a provider like GMail, Sendgrid in case it's slow
+
+!SLIDE
+## Posting data to Twitter, in case it's down or slow
+
+!SLIDE
+## Updating search indexes in your application
+
+!SLIDE
+## Too many after_create hooks that are querying your database a lot
 
 !SLIDE
 # Resque
