@@ -1,0 +1,53 @@
+.content {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.content h1 {
+}
+
+.smbullets ul {
+  padding-left:75px;
+  padding-right:50px;
+}
+.smbullets ul li {
+  text-align:left;
+}
+
+table.versions {
+  width:90%;
+  margin:0 auto;
+  font-size:1.5em;
+}
+
+table.versions td {
+  text-align:center;
+}
+table.versions td, table.versions th {
+  padding:10px;
+  border:1px solid #ddd;
+}
+
+.code, .sh_ruby, .sh_javascript, .sh_cmd, .sh_haml, .sh_css, .sh_internet {
+  font-size:28px;
+}
+
+.content > pre {
+  font-size:28px;
+}
+
+.sh_cmd pre {
+  font-size:28px;
+}
+
+pre.sh_sourceCode {
+  font-size:28px;
+}
+
+pre.smallcode {
+  font-size:1.7em;
+}
+
+li .sh_Ruby, .sh_Javascript, .sh_Cmd {
+  margin-top:20px;
+  text-align:left;
+}

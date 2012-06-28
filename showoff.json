@@ -1,0 +1,9 @@
+{ "name": "Async processing in Rails",
+  "sections": [
+    {"section":"overview"},
+    {"section":"getting_started"},
+    {"section":"testing"},
+    {"section":"deployment"},
+    {"section":"sidekiq"}
+  ]
+}
