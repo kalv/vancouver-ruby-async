@@ -40,6 +40,7 @@
 !SLIDE
 # Resque
 ## https://github.com/defunkt/resque
+![resque-github](resque-github.png)
 
 !SLIDE smbullets
 # Resque Overview

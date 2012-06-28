@@ -5,6 +5,14 @@
 .content h1 {
 }
 
+.content p {
+  margin:0;
+}
+
+.content img {
+  border: 1px solid #ccc;
+}
+
 .smbullets ul {
   padding-left:75px;
   padding-right:50px;
