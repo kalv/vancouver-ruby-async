@@ -9,7 +9,7 @@ Class with a class method `perform` to hold what you want to run
     @@@ Ruby
     class PostIndexer
       # Name of the queue this will be placed on
-    	@queue = :activity_stream
+    	@queue = :indexer
     
       # what will be executed later by a worker
     	def self.perform(post_id)
@@ -39,10 +39,10 @@ Worker will pick up jobs and start to process them
 
     @@@ sh
     # Run work in a process that stays in foreground
-    $ QUEUE=activity_stream rake resque work
+    $ QUEUE=indexer rake resque work
     
     # Run up a number of workers
-    $ QUEUE=activity_stream COUNT=10 rake resque:workers
+    $ QUEUE=indexer COUNT=10 rake resque:workers
 
 !SLIDE smbullets
 # Some worker options
